@@ -2,8 +2,8 @@ import model1 from "../src/assets/model-1.png";
 import model2 from "../src/assets/model-2.png";
 import model3 from "../src/assets/model-3.png";
 import model4 from "../src/assets/model-4.png";
-import model5 from "../src/assets/model-5.png";
-import model6 from "../src/assets/model-6.png";
+import model5 from "../src/assets/model-13.png";
+import model6 from "../src/assets/model-14.png";
 
 export const dummyProducts = [
   {
