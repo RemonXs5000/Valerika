@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-arvo: "Arvo", serif;
+  --font-fatface: "Abril Fatface", serif;
+  --font-trust: "Momo Trust Display", sans-serif;
+
+  --color-linen-50: #f6f6ee; /* sections background */
+  --color-linen-100: #edede5; /* banner background */
+  --color-charcoal-900: #2b2b2a; /* text color */
+  --color-sand-100: #eeeae7; /* modals background */
+  --color-graphite-950: #1b1b1b; /* buttons */
+
+  /* ... */
+}
+
+.title {
+  @apply text-center font-semibold font-arvo text-3xl text-graphite-950;
+}
