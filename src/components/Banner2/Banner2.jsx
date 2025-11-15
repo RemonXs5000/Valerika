@@ -4,7 +4,7 @@ import model2 from "../../assets/model-8.jpg";
 
 export default function Banner2() {
   return (
-    <section className="min-h-[65vh] bg-linen-100 flex justify-center items-center my-5 relative">
+    <section className="min-h-[65vh] bg-linen-100 flex justify-center items-center my-10 relative">
       <div className="flex items-center flex-col text-center gap-4">
         <h3 className="text-2xl font-semibold font-arvo">
           Tailored ,high-quality custom <br /> clothing From Valerika

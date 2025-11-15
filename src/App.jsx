@@ -6,13 +6,17 @@ import Navbar from "./components/Navbar";
 import NewSeason from "./components/NewSeason/NewSeason";
 import NewCollection from "./components/NewCollection/NewCollection";
 import Banner3 from "./components/Banner3/Banner3.jsx";
-import FashionNews from "./components/FashionNews/FashionNews.jsx";
+import InstagramBanner from "./components/Instagram/Instagram.jsx";
+
+import Footer from "./components/Footer/Footer.jsx";
+import Reducer from "./components/Reducer/Reducer.jsx";
 
 import "./App.css";
 
 function App() {
   return (
     <>
+      <Reducer />
       <Navbar />
       <Hero />
       <Banner />
@@ -21,7 +25,8 @@ function App() {
       <Banner2 />
       <NewCollection />
       <Banner3 />
-      <FashionNews />
+      <InstagramBanner />
+      <Footer />
     </>
   );
 }
