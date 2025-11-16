@@ -18,10 +18,7 @@ export default function InstagramBanner() {
             We’re VALERIKA <br /> on Instagram
           </h2>
 
-          <button className="rounded-4xl bg-graphite-950 text-sm text-white px-6 py-2 flex items-center gap-2 justify-center hover:bg-white hover:text-graphite-950 border-2 border-graphite-950 transition-colors duration-500">
-            <Instagram size={18} strokeWidth={2} />
-            Valerika
-          </button>
+          <a href="instagram.com/Valerika%20store">Valerika</a>
         </div>
 
         {/* Image 2 */}

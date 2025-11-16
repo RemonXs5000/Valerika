@@ -4,7 +4,7 @@ import { UserRound, Search, Heart, ShoppingBasket } from "lucide-react";
 export default function Navbar() {
   return (
     <nav className="flex justify-between items-center w-[90%] mx-auto px-2 py-6 ">
-      <p className="text-2xl font-playfair font-black">Valerika</p>
+      <p className="text-2xl  font-black font-arvo font-bold">Valerika</p>
       <ul className="flex gap-5 font-ubuntu text-[16px] font-extralight">
         <li>New</li>
         <li>Categories</li>

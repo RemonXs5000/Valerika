@@ -16,7 +16,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Reducer />
       <Navbar />
       <Hero />
       <Banner />
